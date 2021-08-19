@@ -23,7 +23,7 @@ jobs:
         run: flake8 . --ignore=E501
 
       - name: Test with pytest
-        run: pytest
+        run: SECRET_KEY=django-insecure-sldkfjlsdkjflsdkjflskdjf pytest
 
   deploy:
     needs: tests
