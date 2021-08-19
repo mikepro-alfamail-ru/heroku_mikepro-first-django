@@ -1,0 +1,7 @@
+django
+django-filter
+djangorestframework
+psycopg2-binary
+gunicorn
+dj_database_url
+pytest
